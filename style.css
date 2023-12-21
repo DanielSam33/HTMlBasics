@@ -1,0 +1,22 @@
+/* h1{
+    align-self: center;
+    color: brown;
+    border-color: blue;
+    accent-color: green;
+}
+h2{
+    align-self: center;
+    color: aquamarine;
+} */
+
+#firstname{
+    color: rgb(68, 142, 22);
+}
+
+#secondname{
+    color: darkkhaki;
+}
+
+#dob{
+    border-top-color: blue;
+}
