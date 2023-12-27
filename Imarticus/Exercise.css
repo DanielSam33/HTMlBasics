@@ -1,0 +1,44 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    background-color: aquamarine;
+}
+.Leftbox{
+    width: 250px;
+    height: 700px;
+    background-color: lavender;
+    position: relative;
+    top: 200px;
+}
+
+.JavaPosition1{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 20%;
+}
+
+.Java1{
+    font-family: 'Brush Script MT (cursive)';
+    position: absolute;
+    left: 30%;
+    top: 20px;
+}
+
+.Frontend1{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 20%;
+    top: 7.5em;
+}
+
+.front1{
+    font-family: 'Brush Script MT (cursive)';
+    position: absolute;
+    left: 30%;
+    top: 150px;
+}
+
+.top{
+    width: 250px;
+    height: 200px;
+}
