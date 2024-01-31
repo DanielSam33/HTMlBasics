@@ -1,0 +1,63 @@
+p{
+    padding: 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.one1{
+    background-color: aqua;
+    flex: 1;
+    order: 3;
+}
+
+.two{
+    background-color: blueviolet;
+    flex: 1;
+    order: 1;
+}
+
+.three{
+    background-color: yellow;
+    flex: 2;
+    order: 2;
+}
+
+.box{
+    background-color: violet;
+    min-height: 400px;
+    display: flex;
+    border: 5px solid;
+    justify-content:  space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.one{
+    background:rgb(204, 71, 71);
+    width: 150px;
+    height: 150px;
+    border: solid 5px;
+}
+
+.a{
+    align-self: flex-start;
+    flex-shrink: 1;
+}
+
+.b{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.c{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.d{
+    flex-shrink: 2;
+}
+

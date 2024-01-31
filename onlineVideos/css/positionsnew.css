@@ -1,0 +1,36 @@
+.bluebox{
+    background-color: steelblue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.pinkbox{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+.bluebox1{
+    background-color: rgb(63, 185, 140);
+    width: 300px;
+    height: 300px;
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+    float: left;
+}
+
+.pinkbox1{
+    background-color: rgb(88, 44, 132);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+

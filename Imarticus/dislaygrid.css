@@ -1,0 +1,28 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: blueviolet;
+    height: 500px;
+}
+
+.bg{
+    display: grid;
+    grid: "top top top top"
+            "left right right right";
+    height: 500px;
+}
+
+.top{
+    grid-area: top;
+    background-color: aliceblue;
+}
+
+.left{
+    grid-area: left;
+    background-color: aqua;
+}
+
+.right{
+    grid-area: right;
+    background-color: brown;
+}

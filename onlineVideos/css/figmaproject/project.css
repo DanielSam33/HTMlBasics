@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Lexend', sans-serif;
+    src: url(../../../../fonts/static/Lexend-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Mulish', sans-serif;
+    src: url(../../../../fonts/static/Mulish-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Space Grotesk', sans-serif;
+    src: url(../../../../fonts/static/SpaceGrotesk-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Gorditas', serif;
+    src: url(../../../../fonts/Gorditas-Regular.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.arrow{
+    font-size: 60px;
+    position: fixed;
+    top: 80vh;
+    right: 5vw;
+    color: darkcyan;
+}
+
+.arrow:hover{
+    color: thistle;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(222, 46, 46);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header span{
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerblue{
+    background-color: #4691f2;
+    width: 50%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerblue span{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.headerblue i{
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.headerblack{
+    background-color: black;
+    width: 50%;
+    height: 40px;
+}
+
+.headerblack i{
+    color: #4691f2;
+}
+
+.icon i{
+    color: white;
+}
+
+.media{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-left: 30%;
+    padding: 5px;
+}
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(118, 176, 241);
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(126, 207, 240);
+}
+
+.page4{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+}
+
+.page5{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(126, 207, 240);
+}

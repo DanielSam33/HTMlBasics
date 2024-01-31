@@ -1,0 +1,23 @@
+.one{
+    background-color: aqua;
+}
+
+.two{
+    background-color: blueviolet;
+}
+
+.three{
+    background-color: yellow;
+}
+
+@media(min-width:801px){
+    .main p{
+        width: 30%;
+        float: left;
+        padding: 20px;
+    }
+
+    .three{
+        background-color: violet;
+    }
+}

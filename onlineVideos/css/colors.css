@@ -1,0 +1,94 @@
+body{
+    font-size: 1.5em;
+}
+
+h1{
+    color: rgb(234, 212, 43);
+    background-color: rgba(233, 0,0, .9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-stretch: extra-condensed ;
+    text-decoration: line-through;
+    letter-spacing: .5em;
+    text-align: center;
+}
+
+h2{
+    color: rgba(233, 0,0, .5);
+    font-size: 2em;
+    vertical-align: super;
+}
+
+.ioo{
+    line-height: 1em;
+    word-spacing: .5em;
+    text-indent: 30px;
+    text-shadow: 3px 2px 2px red;
+    text-align: justify;
+}
+
+.ioo::first-letter{
+    font-size: 5em;
+}
+
+.ioo::first-line{
+    font-size: 2em;
+}
+
+.abc:visited{
+    color: red;
+}
+
+.abc:link{
+    color: aqua;
+}
+
+.abc:hover{
+    color: yellow;
+}
+
+.abc:active{
+    color: turquoise;
+}
+
+.abc:focus{
+    color: green;
+}
+
+p[class]{
+    color: aliceblue;
+}
+
+p[id='abd']{
+    color: blue;
+}
+
+.paradiv{
+    border: 3px black  dashed;
+    overflow:scroll;
+    border-width: 3px 5px 4px 4px ;
+}
+
+.ex{
+    background-color: aqua;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 60px solid violet;
+    border-image: url('../../Imarticus/ak.jpg') ;
+    border-image:repeat 90px;;
+}
+
+.ex1{
+    background-color: blue;
+    width: 40%;
+    height: 100px;
+    color: yellowgreen;
+    border: double 4px green;
+    overflow:hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

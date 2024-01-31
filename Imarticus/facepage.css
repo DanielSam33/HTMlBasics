@@ -1,0 +1,8 @@
+@font-face {
+   font-family: "Angelina-rnlA";
+    src: url("../Angeli");
+}
+
+p{
+    font-family:"Angelina-rnlA";
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signip.html" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="username">username</label>
+            <input name="username" id="username" placeholder="enter your name" maxlength="6" required>
+            <!-- file:///C:/VSCode/HTML1/onlineVideos/signip.html?username=iiko&password=uihi 
+            sentend after question mark is query string-->
+        </div>
+
+        <div>
+            <label>password</label>
+            <input name="password" type="password" minlength="8" required>
+        </div>
+
+        <div>
+            <label for="about">about</label>
+            <textarea name="about" id="about" cols="20" rows="5"></textarea>
+        </div>
+    
+        <div>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
+
+        <div>
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+
+        <div>
+            <label for="yearofbirth">yearofbirth</label>
+            <input type="number" name="yearofbirth" id="yearofbirth" maxlength="4" min="1800" max="2100" step="10">
+        </div>
+
+        <div>
+            <label for="dateofbirth">dateofbirth</label>
+            <input type="date" name="dateofbirth" id="dateofbirth" maxlength="2100-12-31">
+        </div>
+
+        <div>
+            <select name="state" id="state" multiple>
+                <option value="tn">tn</option>
+                <option value="ip">ip</option>
+                <option value="op" label="op"></option>
+            </select>
+        </div>
+
+        <div>
+            <label for="teke">teke</label>
+            <input type="tel" name="teke" id="teke">
+        </div>
+
+        <div>
+            <input type="color" name="" id="">
+        </div>
+
+        <div>
+            <label for="file1">file</label>
+            <input type="file" name="file" id="file1">
+        </div>
+
+        <div>
+
+            <input type="hidden" name="hide" id="hide" value="hide">
+        </div>
+
+        <div>
+            <label for="sms">sms</label>
+            <input type="checkbox" name="sms" id="sms">
+        </div>
+
+        <div>
+            <button type="submit">sign up</button>
+        </div>
+
+        <div>
+            <input type="image" src="../Imarticus/ak.jpg" width="100px" height="100px">
+        </div>
+
+        <div>
+            <button type="reset">reset</button>
+        </div>
+       
+    </form>
+</body>
+</html>
+
+<!-- file:///C:/VSCode/HTML1/onlineVideos/signip.html?username=Daniel&password=ewcwecwecw&
+    about=cwecwecwec&gender=male&yearofbirth=2000&dateofbirth=2000-05-11&sms=on -->

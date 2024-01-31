@@ -1,0 +1,73 @@
+.bg{
+    padding: 0px;
+    margin: 0px;
+    background-color: blue;
+}
+
+.full{
+    background-color: brown;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    border: solid 1px;
+}
+
+.left{
+    background-color:paleturquoise;
+    width: 30%;
+    height: 600px;
+    border: solid 2px;
+}
+
+.left img{
+    width: 50%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 100px;
+    border: lavender solid 2px;
+    
+}
+
+.left p{
+    margin-left: 100px;
+    font-size: 30pxpx;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+.left icon{
+    width: 50px;
+    height: 50px;
+}
+
+.left achieve{
+    margin-left: 70px;
+    font-size: 30pxpx;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+.top{
+    background-color: lavender;
+    width: 70%;
+    height: 150px;
+    border: solid 1px;
+}
+
+.top p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.top profile{
+    color: rgb(236, 51, 51);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+

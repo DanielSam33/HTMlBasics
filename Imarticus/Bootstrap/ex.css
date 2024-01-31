@@ -1,0 +1,19 @@
+.container{
+    background-color: azure;
+    height: 600vh;
+}
+
+.col-12{
+    background-color: aqua;
+    height: 200px;
+}
+
+.col-4{
+    height: 400vh;
+    background-color: blueviolet;
+}
+
+.col-8{
+    height: 400vh;
+    background-color: yellow;
+}

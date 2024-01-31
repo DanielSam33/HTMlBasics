@@ -1,0 +1,8 @@
+.para p{
+    width: 30%;
+    float: right;
+}
+
+.para:nth-child(4){
+    clear: right;
+}

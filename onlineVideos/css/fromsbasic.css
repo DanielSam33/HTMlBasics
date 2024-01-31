@@ -1,0 +1,118 @@
+body{
+    background: url('../../Imarticus/classexercise.jpg');
+    width: 100%;
+}
+
+.main{
+    height: 75vh;
+    width: 25vw;
+    background-color: rgb(41, 41, 48);
+    opacity: 80%;
+    border-radius: 5%;
+    margin: 13vh auto ;
+    color: aliceblue;
+    padding: 10px 20px 30px;
+}
+.tex{
+    text-align: center;
+    color: #e29578;
+    opacity: 80%;
+}
+
+.name label{
+    font-size: 28px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.name input{
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    width: 45vh;
+    height: 5vh;
+    border-radius: 5%;
+    font-size: 1.2em;
+}
+
+.email label{
+    font-size: 28px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.email input{
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    width: 45vh;
+    height: 5vh;
+    border-radius: 5%;
+    font-size: 1.2em;
+}
+
+.ph label{
+    font-size: 28px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.ph input{
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    width: 45vh;
+    height: 5vh;
+    font-size: 1.2em;
+    border-radius: 5%;
+}
+
+.pd label{
+    font-size: 28px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.pd input{
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    width: 45vh;
+    height: 5vh;
+    border-radius: 5%;
+    font-size: 1.2em;
+}
+
+.gender1 label{
+    font-size: 20px;
+}
+
+.gender1 input{
+    font-size: 20px;
+    margin-left: 15px;
+    transform: scale(1.5);
+    accent-color: aqua;
+}
+
+input:focus{
+    background-color: aquamarine;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn button{
+    background-color: aqua;
+    margin-top: 13px;
+    border-radius: 8%;
+    width: 20vh;
+    height: 7.5vh;
+    font-size: larger;
+    color: #e29578;
+}
+
+button:hover{
+    background-color: #e29578;
+    color: aqua;
+}

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+}
+
+.bg{
+    width: 50%;
+    height: 100vh;
+    background-color:lavender;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    margin-left: 330px;
+    margin-right: -300px;
+    color:#F23918;
+    font-size: 100px;
+    /* border: #3d144c 5px double; */
+    border-top:	#fe0000 10px ;
+    border-bottom: #011efe 10px ;
+    border-left: #fdfe02 10px ;
+    border-right: #0bff01 10px ;
+    border-style: double;
+    border-radius: 10%;
+    text-transform: uppercase;
+    text-shadow: 0 6px 15px  green;
+    background-color: antiquewhite;
+    cursor: progress;
+}
+
+.text:hover {
+    transition: 2s;
+    transform: rotate(360deg) translate(200px);
+    transform-origin: left;
+}
+

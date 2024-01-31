@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    background-image: url(../../../Imarticus/ak.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.box2{
+    background-image: url(../../../Imarticus/classexercise.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.box3{
+    background-image: url(../../../Imarticus/Passport\ photo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+a{
+    font-size: 50px;
+}
+
+i{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    transition: all .5s ease;
+    color: aliceblue;
+
+}
+
+i:hover{
+    color: darkturquoise;
+}
+
+html{
+    scroll-behavior: smooth;
+}
